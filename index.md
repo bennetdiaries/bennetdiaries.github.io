@@ -18,4 +18,4 @@ The diaries, found in a forgotten deed box at The Larches estate in 2024, are cu
 
 ---
 
-[About the Project & Its Discovery](about.md) | [Gallery of Artefacts](gallery.md)
+[About the Project](about.md) | [Gallery of Artefacts](gallery.md)
