@@ -1,4 +1,5 @@
 # The Bennet Diaries Project
+
 *An Archive of the Journals and Correspondence of Bradbury Bennet, Esq. (1797–1881)*
 
 Welcome to the digital archive of the Bennet Diaries Project. This project aims to make accessible the newly discovered journals of Bradbury Bennet, a gentleman-naturalist from Somerset, whose precise and ironic observations provide a unique insight into the intellectual and social life of Victorian England.
@@ -7,9 +8,12 @@ The diaries, found in a forgotten deed box at The Larches estate in 2024, are cu
 
 ---
 
-### Recent Entries
+### Featured Entries
+
+*   [An Illustrated Entry: The Elephant Hawk-moth (11 June 1852)](entries/elephant-hawk-moth.md)
 
 *   [A Visit from Mr. Hargrave, Speaker to Entities from Planet H (18 July 1845)](entries/hargrave-visit.md)
+
 *   [On the Futility of All Endeavour (30 July 1845)](entries/futility-treatise.md)
 
 ---
