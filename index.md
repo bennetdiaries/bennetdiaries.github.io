@@ -17,6 +17,7 @@ The diaries, found in a forgotten deed box at The Larches estate in 2024, are cu
 *   [On the Futility of All Endeavour (30 July 1845)](entries/1845-07-30.md)
 
 *   [An Illustrated Entry: The Elephant Hawk-moth (11 June 1852)](entries/1852-06-11.md)
+
 ---
 
 [About the Project](about.md) | [Gallery of Artefacts](gallery.md)
