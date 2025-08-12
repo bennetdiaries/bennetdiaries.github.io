@@ -10,11 +10,11 @@ The diaries, found in a forgotten deed box at The Larches estate in 2024, are cu
 
 ### Featured Entries
 
-*   [An Illustrated Entry: The Elephant Hawk-moth (11 June 1852)](entries/1852-06-11.md)
+*   1845 - [A Visit from Mr. Hargrave, Speaker to Entities from Planet H (18 July 1845)](entries/1845-07-18.md)
 
-*   [A Visit from Mr. Hargrave, Speaker to Entities from Planet H (18 July 1845)](entries/1845-07-18.md)
+*   1845 - [On the Futility of All Endeavour (30 July 1845)](entries/futility-treatise.md)
 
-*   [On the Futility of All Endeavour (30 July 1845)](entries/futility-treatise.md)
+*   1852 - [An Illustrated Entry: The Elephant Hawk-moth (11 June 1852)](entries/1852-06-11.md)
 
 ---
 
