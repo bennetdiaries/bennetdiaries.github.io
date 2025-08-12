@@ -21,5 +21,10 @@ This gallery contains digital reproductions of key artefacts from the Bennet Arc
 ![A scan of a journal page](assets/images/journal_sample_1845.png)  
 *A sample page from Bennet's journal, detailing his observations of coleoptera. Note the distinctive, cramped script and the marginalia, which often contain his more acerbic asides.*
 
+
+**Illustration of *Deilephila elpenor* (1852)**
+![Illustration of the Elephant Hawk-moth](assets/images/deilephila_elpenor.png)  
+*A fine example of Bennet's skill as a naturalist-illustrator. This watercolour and ink drawing corresponds to his journal entry of 11th June 1852. The notes indicate the species, date, and location of the capture. [Read the corresponding journal entry](entries/elephant-hawk-moth.md).*
+
 ---
 [Return to the Main Archive](index.md)
