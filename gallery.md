@@ -23,7 +23,7 @@ This gallery contains digital reproductions of key artefacts from the Bennet Arc
 
 
 **Illustration of *Deilephila elpenor* (1852)**
-![Illustration of the Elephant Hawk-moth](assets/images/deilephila_elpenor.png)  
+![Illustration of the Elephant Hawk-moth](assets/images/deilephila_elpenor_1852.png)  
 *A fine example of Bennet's skill as a naturalist-illustrator. This watercolour and ink drawing corresponds to his journal entry of 11th June 1852. The notes indicate the species, date, and location of the capture. [Read the corresponding journal entry](entries/elephant-hawk-moth.md).*
 
 ---
