@@ -1,6 +1,6 @@
 # About the Project & The Discovery
 
-The Bennet Diaries Project was established in 2024 following the remarkable discovery of a significant collection of primary source material related to the life and thoughts of Bradbury Bennet, a hitherto unknown gentleman-naturalist of Somerset. Our mission is to transcribe, annotate, and make this unique archive accessible to both the scholarly community and the wider public.
+The Bennet Diaries Project was established in 2024 following the remarkable discovery of a significant collection of primary source material related to the life and thoughts of Bradbury Bennet, a hitherto almost unknown gentleman-naturalist of Somerset. Our mission is to transcribe, annotate, and make this unique archive accessible to both the scholarly community and the wider public.
 
 ---
 
@@ -8,7 +8,7 @@ The Bennet Diaries Project was established in 2024 following the remarkable disc
 
 In the spring of 2024, during a routine structural survey of the library at The Larches, Bennet's former family estate near Frome, a stonemason uncovered a concealed deed box within a wall cavity behind a row of bookshelves. The box, sealed for over a century, contained a collection of leather-bound volumes: the personal journals of Bradbury Bennet, spanning from 1819 to 1862.
 
-The diaries are a chronicle of an age of steam, spiritualism, and spectacle, recorded by a man who preferred the observable logic of a beetle's wing to the soaring assertions of the drawing-room messiah. Written in a meticulous, often cramped hand, the entries reveal a mind of rare scientific precision and dry, ironic wit. Bennet’s writings offer an invaluable counter-narrative to the prevailing romantic and spiritualist currents of his time.
+The diaries are a chronicle of an age of steam, spiritualism, and spectacle, recorded by a man who preferred "the observable logic of a beetle's wing to the soaring assertions of the drawing-room messiah". Written in a meticulous, often cramped hand, the entries reveal a mind of rare scientific precision and dry, ironic wit. Bennet’s writings offer an invaluable counter-narrative to the prevailing romantic and spiritualist currents of his time.
 
 ### The Curator
 
