@@ -8,6 +8,10 @@ The diaries, found in a forgotten deed box at The Larches estate in 2024, are cu
 
 ---
 
+[About the Project](about.md) | [Gallery of Artefacts](gallery.md)
+
+---
+
 ### Featured Entries
 
 *   [Observation of the Green Tiger Beetle (12 July 1845)](entries/1845-07-12.md)
@@ -19,5 +23,3 @@ The diaries, found in a forgotten deed box at The Larches estate in 2024, are cu
 *   [An Illustrated Entry: The Elephant Hawk-moth (11 June 1852)](entries/1852-06-11.md)
 
 ---
-
-[About the Project](about.md) | [Gallery of Artefacts](gallery.md)
