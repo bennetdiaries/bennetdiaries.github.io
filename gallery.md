@@ -12,7 +12,7 @@ This gallery contains digital reproductions of key artefacts from the Bennet Arc
 
 **Mrs. Adelaide Finch (c. 1855)**
 ![Portrait of Mrs. Adelaide Finch](assets/images/AF_1855.png)  
-*Studio portrait of Mrs. Adelaide Finch, a London correspondent of Bennet's. The photograph was enclosed in a letter dated May 1855. Heavily digitally enhanced due to damage.*
+*Recreated studio portrait of Mrs. Adelaide Finch, a London correspondent of Bennet's. The photograph was enclosed in a letter dated May 1855. Heavily digitally enhanced due to damage.*
 
 
 ### Manuscript Samples
