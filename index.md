@@ -10,7 +10,7 @@ The diaries, found in a forgotten deed box at The Larches estate in 2024, are cu
 
 ### Featured Entries
 
-*   [An Illustrated Entry: The Elephant Hawk-moth (11 June 1852)](entries/elephant-hawk-moth.md)
+*   [An Illustrated Entry: The Elephant Hawk-moth (11 June 1852)](entries/1852-06-11.md)
 
 *   [A Visit from Mr. Hargrave, Speaker to Entities from Planet H (18 July 1845)](entries/hargrave-visit.md)
 
