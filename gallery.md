@@ -17,10 +17,9 @@ This gallery contains digital reproductions of key artefacts from the Bennet Arc
 
 ### Manuscript Samples
 
-**A Page from the Journal of 1845**
-![A scan of a journal page](assets/images/journal_sample_1845.png)  
-*A sample page from Bennet's journal, detailing his observations of coleoptera. Note the distinctive, cramped script and the marginalia, which often contain his more acerbic asides.*
-
+**A Page from the Journal of 1845 (Undergoing Restoration)**
+![A scan of a water-damaged journal page](assets/images/1845_08_12_scan_monochrome.png)  
+*A high-resolution scan of a journal page dated 12th July 1845, showing significant water damage sustained prior to its discovery. The entry details Bennet's observation of a Green Tiger Beetle. Our conservation department is currently working to stabilize the manuscript. This image serves as a record of the artefact's initial condition. [Read the transcription of this entry](entries/1845-07-12.md).*
 
 **Illustration of *Deilephila elpenor* (1852)**
 ![Illustration of the Elephant Hawk-moth](assets/images/deilephila_elpenor_1852.png)  
