@@ -10,7 +10,7 @@ This gallery contains digital reproductions of key artefacts from the Bennet Arc
 ![Portrait of Bradbury Bennet](assets/images/bennet_portrait.png)  
 *A daguerreotype of Bradbury Bennet, believed to have been taken in Bath around 1845. This is the only known portrait of Bennet. It was found pressed between the pages of his 1845 journal. - to be added.*
 
-**Mrs. Adelaide Finch (c. 1852)**
+**Mrs. Adelaide Finch (c. 1855)**
 ![Portrait of Mrs. Adelaide Finch](assets/images/AF_1855.png)  
 *Studio portrait of Mrs. Adelaide Finch, a London correspondent of Bennet's. The photograph was enclosed in a letter dated May 1855. Heavily digitally enhanced due to damage.*
 
