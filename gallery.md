@@ -6,9 +6,9 @@ This gallery contains digital reproductions of key artefacts from the Bennet Arc
 
 ### Portraits
 
-**Bradbury Bennet, Esq. (c. 1845)**
-![Portrait of Bradbury Bennet](assets/images/bennet_portrait.png)  
-*A daguerreotype of Bradbury Bennet, believed to have been taken in Bath around 1845. This is the only known portrait of Bennet. It was found pressed between the pages of his 1845 journal. - to be added.*
+**A Note on the Absence of a Portrait of Bradbury Bennet**
+![Signature of Bradbury Bennet](assets/images/bennet_signature.png)  
+*Despite extensive research at The Larches and a search of regional archives, no confirmed portrait or photograph of Bradbury Bennet has been found. This absence is, perhaps, entirely in keeping with the character revealed in his diaries: a man deeply private, skeptical of vanity, and more interested in observing the world than in being observed by it. The signature above, taken from the flyleaf of his 1842 journal, is the most personal artefact of his identity we possess.*
 
 **Mrs. Adelaide Finch (c. 1855)**
 ![Portrait of Mrs. Adelaide Finch](assets/images/AF_1855.png)  
