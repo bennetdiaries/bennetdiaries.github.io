@@ -22,7 +22,6 @@ Mrs. Finch became the first and most crucial member of what Bennet privately ter
 
 The portrait of Mrs. Finch, sent to Bennet around 1852, is therefore an artefact of immense importance. It represents an act of trust and intimacy, a tangible link in their otherwise disembodied friendship. It stands in stark contrast to Bennet's own deep-seated aversion to being photographed, highlighting the unique space their correspondence occupied in his life.
 
-![Portrait of Mrs. Adelaide Finch](assets/images/finch_photo.png) 
 
 ---
 > **Editor's Note:** The Finch-Bennet letters represent one of the most complete epistolary relationships in the archive. Scholars generally agree that their bond, while platonic, was the most significant of Bennet's life. It offers a poignant counter-narrative to the common perception of Bennet as a solitary recluse, revealing a capacity for deep, sustained intellectual and emotional connection. The collection is currently being prepared for a separate scholarly publication. - Dr. E. Reed
