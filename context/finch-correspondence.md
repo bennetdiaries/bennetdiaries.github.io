@@ -20,7 +20,7 @@ Mrs. Finch became the first and most crucial member of what Bennet privately ter
 
 ### The Portrait as Artefact
 
-![Portrait of Mrs. Adelaide Finch](assets/images/finch_photo.png)  
+![Portrait of Mrs. Adelaide Finch](main/assets/images/finch_photo.png)  
 *The daguerreotype of Mrs. Finch, c. 1852, with her handwritten inscription. Bennet found it a "most remarkable specimen."*
 
 The portrait of Mrs. Finch, sent to Bennet around 1852, is therefore an artefact of immense importance. It represents an act of trust and intimacy, a tangible link in their otherwise disembodied friendship. It stands in stark contrast to Bennet's own deep-seated aversion to being photographed, highlighting the unique space their correspondence occupied in his life. [Read Bennet's journal entry upon receiving the portrait.](../entries/1852-07-03.md)
