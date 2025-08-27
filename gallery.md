@@ -11,8 +11,8 @@ This gallery contains digital reproductions of key artefacts from the Bennet Arc
 *Despite extensive research at The Larches and a search of regional archives, no confirmed portrait or photograph of Bradbury Bennet has been found. This absence is, perhaps, entirely in keeping with the character revealed in his diaries: a man deeply private, skeptical of vanity, and more interested in observing the world than in being observed by it. The signature above, taken from the flyleaf of his 1842 journal, is the most personal artefact of his identity we possess.*
 
 **Mrs. Adelaide Finch (c. 1855)**
-![Portrait of Mrs. Adelaide Finch](assets/images/AF_1855.png)  
-*Recreated studio portrait of Mrs. Adelaide Finch, a London correspondent of Bennet's. The photograph was enclosed in a letter dated May 1855. Heavily digitally enhanced due to damage.*
+![Portrait of Mrs. Adelaide Finch](assets/images/finch_photo.png)  
+*info to be added*
 
 
 ### Manuscript Samples
