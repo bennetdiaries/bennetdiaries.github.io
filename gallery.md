@@ -6,19 +6,19 @@ This gallery contains digital reproductions of key artefacts from the Bennet Arc
 
 ### Portraits
 
-**A Note on the Absence of a Portrait of Bradbury Bennet**
-![Signature of Bradbury Bennet](assets/images/bennet_signature.png)  
-*Despite extensive research at The Larches and a search of regional archives, no confirmed portrait or photograph of Bradbury Bennet has been found. This absence is, perhaps, entirely in keeping with the character revealed in his diaries: a man deeply private, skeptical of vanity, and more interested in observing the world than in being observed by it. The signature above, taken from the flyleaf of his 1842 journal, is the most personal artefact of his identity we possess.*
+**Bradbury Bennet (c. 1852)**
+![Portrait of Bradbury Bennet](assets/images/bennet_photo.png)  
+*The only known likeness of Bradbury Bennet, this calotype photograph was taken in Taunton by Mr. Elias Thornecroft of Bath. Bennet, who disdained portraiture as an act of vanity, was persuaded to sit for the photograph by his friend Dr. Henry Caldwell under the pretext that it was for the scientific record of the Somerset Archaeological and Natural History Society. His own journal entry on the matter is characteristically acerbic. [Read the corresponding journal entry](entries/1852-06-08.md).*
 
-**Mrs. Adelaide Finch (c. 1855)**
+**Mrs. Adelaide Finch (c. 1852)**
 ![Portrait of Mrs. Adelaide Finch](assets/images/finch_photo.png)  
-*info to be added*
+*This albumen print of Adelaide Finch was discovered not with the main journals, but among Bennet's most private papers at The Larches. It is believed she sent it to him in 1852, a stark contrast to his own reluctant sitting. The photograph is mounted on card stock and bears a handwritten inscription in the bottom margin: "A record of light from a salon full of shadows. Yours, A. F., 1852." The quote is a poignant summary of her role as an observer and her intellectual bond with Bennet. [Learn more about the Finch-Bennet correspondence](context/finch-correspondence.md).*
 
 
 ### Manuscript Samples
 
 **A Page from the Journal of 1845 (Undergoing Restoration)**
-![A scan of a water-damaged journal page](assets/images/1845_08_12_scan_monochrome.png)  
+![A scan of a water-damaged journal page](assets/images/1845_07_12_scan_monochrome.png)  
 *A high-resolution scan of a journal page dated 12th July 1845, showing significant water damage sustained prior to its discovery. The entry details Bennet's observation of a Green Tiger Beetle. Our conservation department is currently working to stabilize the manuscript. This image serves as a record of the artefact's initial condition. [Read the transcription of this entry](entries/1845-07-12.md).*
 
 **Illustration of *Deilephila elpenor* (1852)**
