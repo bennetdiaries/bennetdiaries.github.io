@@ -8,24 +8,30 @@ The diaries, found in a forgotten deed box at The Larches estate in 2024, are cu
 
 ---
 
-[About the Project](about.md) | [Gallery of Artefacts](gallery.md)
+[About the Project](about.md) | [Gallery of Artefacts](gallery.md) | [Contextual Essays](context/index.md)
 
 ---
 
-### Featured Entries
+### Featured Entries & Artefacts
 
-*   [Observation of the Green Tiger Beetle (12 July 1845)](entries/1845-07-12.md)
+This selection highlights key moments from Bennet's journals, offering insights into his scientific work, his philosophical musings, and his unique observations on the society of his time.
 
-*   [A Visit from Mr. Hargrave, Speaker to Entities from Planet H (18 July 1845)](entries/1845-07-18.md)
+*   **1845:** [Observation of the Green Tiger Beetle (12 July)](entries/1845-07-12.md) - A typical example of Bennet's meticulous naturalist fieldwork.
 
-*   [On the Futility of All Endeavour (30 July 1845)](entries/1845-07-30.md)
+*   **1845:** [A Visit from Mr. Hargrave, Speaker to Entities from Planet H (18 July)](entries/1845-07-18.md) - Bennet records an encounter with a local spiritualist with characteristic dry wit.
 
-*   [On the August Meteors, and the Comfort of Predictable Things (11 August 1846)](entries/1846-08-11.md)
+*   **1845:** [On the Futility of All Endeavour (30 July)](entries/1845-07-30.md) - A philosophical entry reflecting on a curious local custom.
 
-*   [A Census of My Silent Parishioners (4 November 1847)](entries/1847-11-04.md)
+*   **1846:** [On the August Meteors, and the Comfort of Predictable Things (11 August)](entries/1846-08-11.md) - Bennet finds solace in the predictable mechanics of the cosmos.
 
-*   [An Illustrated Entry: The Elephant Hawk-moth (11 June 1852)](entries/1852-06-11.md)
+*   **1847:** [A Census of My Silent Parishioners (4 November)](entries/1847-11-04.md) - An entry detailing his personal system for classifying the local flora and fauna.
 
-*   [On a Youthful Intervention in a Drought (15 August 1853)](entries/1853-08-15.md)
+*   **1852:** [The Calotype Ordeal (8 June)](entries/1852-06-08.md) - Bennet's reluctant submission to the "modern art of calotypy," resulting in his only known portrait.
+
+*   **1852:** [An Illustrated Entry: The Elephant Hawk-moth (11 June)](entries/1852-06-11.md) - A beautiful example of Bennet's skill as both a scientist and an artist.
+
+*   **1852:** [A Record of Light from a Salon Full of Shadows (3 July)](entries/1852-07-03.md) - The arrival of a daguerreotype from Mrs. Adelaide Finch, prompting a reflection on photography and personality.
+
+*   **1853:** [On a Youthful Intervention in a Drought (15 August)](entries/1853-08-15.md) - A memory from Bennet's youth provides a rare glimpse into his early character.
 
 ---
