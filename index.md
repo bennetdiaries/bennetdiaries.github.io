@@ -28,10 +28,9 @@ This selection highlights key moments from Bennet's journals, offering insights 
 
 *   **1852:** [The Calotype Ordeal (8 June)](entries/1852-06-08.md) - Bennet's reluctant submission to the "modern art of calotypy," resulting in his only known portrait.
 
-*   **1852:** [An Illustrated Entry: The Elephant Hawk-moth (11 June)](entries/1852-06-11.md) - A beautiful example of Bennet's skill as both a scientist and an artist.
+*   **1852:** [An Illustrated Entry: The Elephant Hawk-moth (11 June)](entries/elephant-hawk-moth.md) - A beautiful example of Bennet's skill as both a scientist and an artist.
 
-*   **1852:** [A Record of Light from a Salon Full of Shadows (3 July)](entries/1852-07-03.md) - The arrival of a daguerreotype from Mrs. Adelaide Finch, prompting a reflection on photography and personality.
+*   **1852:** [A Record of Light from a Salon Full of Shadows (3 July)](entries/1852-07-03.md) - The arrival of a photographic portrait from Mrs. Adelaide Finch, prompting a reflection on photography and personality.
 
 *   **1853:** [On a Youthful Intervention in a Drought (15 August)](entries/1853-08-15.md) - A memory from Bennet's youth provides a rare glimpse into his early character.
-
----
+``` 
