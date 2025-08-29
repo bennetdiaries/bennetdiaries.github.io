@@ -46,52 +46,52 @@ defaults:
 # ----------------------------------------------------
 # --- Sekce pro automatické kontextové poznámky ---
 # ----------------------------------------------------
-# Postavy
+# Postavy pro automatické kontextové poznámky
 characters:
   bradbury_bennet:
     name: "Bradbury Bennet"
     title: "Gentleman Naturalist"
     years: "1797–1881"
     location: "Somerset"
-    link: "/context/bennet-biography.html" # Odkaz na budoucí bio
-    color: "#2E8B57" # Zelená
+    link: "/context/bennet-biography.html" # Přidáme .html
+    color: "#2E8B57"
 
   adelaide_finch:
     name: "Adelaide Finch" 
     title: "Melancholic Rationalist"
     years: "c. 1817–1878"
     location: "London"
-    link: "/context/finch-correspondence.html"
-    color: "#4682B4" # Modrá
+    link: "/context/finch-correspondence.html" # Přidáme .html
+    color: "#4682B4"
 
   alaric_thorne:
     name: "Alaric Thorne"
     title: "Engineer-Poet"
     years: "1805–1879" 
     location: "Manchester"
-    link: "/context/thorne-biography.html"
-    color: "#B8860B" # Zlatá/Okrová
+    link: "/context/thorne-biography.html" # Přidáme .html
+    color: "#B8860B"
 
   dr_caldwell:
     name: "Dr. Henry Caldwell"
     title: "Physician"
     location: "Bath"
-    link: "/context/caldwell-notes.html"
-    color: "#8B4513" # Hnědá
+    link: "/context/caldwell-notes.html" # Přidáme .html
+    color: "#8B4513"
 
   dr_alistair_finch:
     name: "Dr. Alistair Finch"
     title: "Mesmerist"
     location: "London"
-    link: "/context/alistair-finch-notes.html"
-    color: "#DC143C" # Karmínová
+    link: "/context/alistair-finch-notes.html" # Přidáme .html
+    color: "#DC143C"
 
   elias_blackwood:
     name: "Elias Blackwood"
     title: "Calotypist"
     location: "Bath"
-    link: "/entries/1852-06-08.html" # Odkaz na deník, kde se objevil
-    color: "#696969" # Šedá
+    link: "/entries/1852-06-08.html" # Přidáme .html
+    color: "#696969"
 
 # --- Konec sekce ---
 
