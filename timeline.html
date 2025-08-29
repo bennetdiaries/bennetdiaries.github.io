@@ -1,42 +1,32 @@
 ---
 layout: default
 title: Timeline
+permalink: /timeline.html
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/timeline.css' | relative_url }}">
 
-<h1>Timeline</h1>
+<div class="page-wrap">
+  <header class="page-header">
+    <h1>Timeline</h1>
+    <p class="lead">A concise vertical timeline compiled from the Bennet Master Timeline.</p>
+  </header>
 
-<div id="timeline-filters">
-  <button onclick="filterTimeline('all')">Show All</button>
-  <button onclick="filterTimeline('bennet')">Bennet Family</button>
-  <button onclick="filterTimeline('friends')">Friends</button>
-</div>
-
-<div id="timeline-container">
-  {% for event in site.data.timeline %}
-    <div class="timeline-item" data-type="{{ event.type }}">
-      <div class="timeline-year">{{ event.year }}</div>
-      <div class="timeline-content">
-        <h3>{{ event.title }}</h3>
-        <p>{{ event.description }}</p>
-        {% if event.characters %}
-          <p class="timeline-characters">Characters: {{ event.characters | join: ", " }}</p>
-        {% endif %}
-      </div>
+  <main class="timeline-container" role="main">
+    <div class="timeline" aria-live="polite">
+      {% for event in site.data.timeline %}
+        <article class="timeline-item">
+          <div class="timeline-marker type-{{ event.type | downcase }}" aria-hidden="true"></div>
+          <div class="timeline-body">
+            <time class="timeline-year" datetime="{{ event.year }}">{{ event.year }}</time>
+            <h2 class="timeline-title">{{ event.title }}</h2>
+            <p class="timeline-description">{{ event.description }}</p>
+            {% if event.characters %}
+              <p class="timeline-characters"><strong>Characters:</strong> {{ event.characters | join: ", " }}</p>
+            {% endif %}
+          </div>
+        </article>
+      {% endfor %}
     </div>
-  {% endfor %}
+  </main>
 </div>
-
-<script>
-function filterTimeline(type) {
-  const items = document.querySelectorAll('.timeline-item');
-  items.forEach(item => {
-    if (type === 'all' || item.dataset.type === type) {
-      item.style.display = 'block';
-    } else {
-      item.style.display = 'none';
-    }
-  });
-}
-</script>
