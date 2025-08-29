@@ -1,5 +1,5 @@
 ---
-title: The Society of Night Walkers: An Epistolary Community
+title: The Society of Night Walkers - An Epistolary Community
 ---
 
 # The Society of Night Walkers: An Epistolary Community
