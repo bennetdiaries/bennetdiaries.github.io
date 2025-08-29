@@ -1,1 +1,121 @@
-To be added
+/* --- Základní nastavení a fonty --- */
+body {
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #333;
+    background-color: #fdfaf3; /* Teplý odstín starého papíru */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    color: #4a4a4a;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    line-height: 1.2;
+}
+h1 { font-size: 2.5em; border-bottom: 2px solid #dcdcdc; padding-bottom: 0.3em; }
+h2 { font-size: 2em; border-bottom: 1px solid #dcdcdc; padding-bottom: 0.2em; }
+h3 { font-size: 1.5em; }
+
+a {
+    color: #5a8f7b; /* Tlumená zelená */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+a:hover {
+    color: #3b5d50;
+    text-decoration: underline;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 2em 0;
+}
+
+/* --- Hlavička a patička --- */
+.site-header, .site-footer {
+    padding: 20px 0;
+    text-align: center;
+}
+.site-title a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.site-description {
+    font-style: italic;
+    color: #777;
+    margin-top: -0.5em;
+}
+.site-footer {
+    font-size: 0.8em;
+    color: #888;
+}
+
+/* --- Hlavní obsah a články --- */
+main {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    padding: 2em;
+    margin-bottom: 2em;
+}
+article header {
+    margin-bottom: 2em;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1em;
+}
+article header h2, article header h1 {
+    border: none;
+    margin: 0;
+}
+
+/* --- Citace a poznámky editora --- */
+blockquote {
+    margin: 1.5em 2em;
+    padding: 0.5em 1em;
+    border-left: 3px solid #bda87f; /* Zlatavý okraj */
+    background: #fdfdf3;
+    font-style: italic;
+    color: #555;
+}
+.editor-note, .curator-note {
+    border: 1px dashed #ccc;
+    background: #f9f9f9;
+    padding: 1em;
+    margin-top: 2em;
+    font-size: 0.9em;
+    color: #444;
+}
+
+/* --- Obrázky v obsahu --- */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5em auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background: #fff;
+}
+
+/* --- Kontextové poznámky (skriptem přidané) --- */
+.contextual-link {
+    font-weight: 600;
+    cursor: help;
+    transition: background-color 0.2s;
+}
+.contextual-link:hover {
+    background-color: rgba(0,0,0,0.05);
+  }
