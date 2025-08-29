@@ -1,110 +1,146 @@
-/* --- Styly pro hlavičku a filtry --- */
-.timeline-header { text-align: center; margin-bottom: 2em; }
-#timeline-filters { display: flex; flex-wrap: wrap; justify-content: center; gap: 1em; margin-bottom: 2em; padding-bottom: 1em; border-bottom: 1px solid #ddd; }
-.filter-group { display: flex; align-items: center; gap: 0.5em; }
-.filter-btn {
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    padding: 8px 15px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-family: 'Crimson Text', serif;
-    transition: all 0.3s;
-    border-bottom: 3px solid transparent;
-}
-.filter-btn:hover { background-color: #e0e0e0; }
-.filter-btn.active { 
-    font-weight: bold; 
-    background-color: #fff;
-    border-bottom-color: var(--char-color, #333);
-}
-
-/* --- Hlavní kontejner a osa --- */
-.timeline-wrapper { overflow-x: auto; padding: 2em 0; }
+/* === ZÁKLADNÍ STYLING TIMELINE === */
 #timeline-container {
-    position: relative;
-    width: 4000px; /* Široký kontejner pro horizontální osu */
-    height: 400px;
-    background-image: linear-gradient(to right, #fdfaf3, #f5efdc);
-}
-#timeline-container::before { /* Hlavní časová osa */
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: #bda87f;
+  position: relative;
+  margin: 2rem auto;
+  padding: 1rem 0;
+  width: 90%;
+  max-width: 800px;
 }
 
-/* --- Události na ose --- */
-.timeline-event {
-    position: absolute;
-    transform: translateX(-50%);
-    width: 150px;
-    text-align: center;
-    font-size: 0.8em;
+#timeline-container::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: #ccc;
+  transform: translateX(-50%);
 }
-.timeline-event .marker {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: var(--char-color, #ccc);
-    border: 2px solid #fff;
-    box-shadow: 0 0 5px rgba(0,0,0,0.2);
-    margin: 0 auto 10px;
-    cursor: pointer;
-    transition: transform 0.2s;
-}
-.timeline-event:hover .marker { transform: scale(1.5); }
-.event-title { font-weight: bold; }
-.event-up { top: 30px; }
-.event-down { top: 230px; }
 
-/* --- Modální okno (popup) --- */
-.modal { position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; }
-.modal-content {
-    background-color: #fdfaf3;
-    padding: 30px;
-    border: 1px solid #bda87f;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    width: 80%;
-    max-width: 600px;
-    border-radius: 5px;
-    position: relative;
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
 }
-.close-button {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
-    color: #aaa;
-}
-.close-button:hover { color: #333; }
-#modal-link { display: block; margin-top: 1em; font-weight: bold; }
 
-/* --- Fáze na ose --- */
-.timeline-phase {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    opacity: 0.5;
-    z-index: 0;
+.timeline-item:nth-child(odd) {
+  left: 0;
+  text-align: right;
 }
-.phase-label {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 1.5em;
-    font-weight: bold;
-    color: rgba(0,0,0,0.2);
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    transform: rotate(180deg);
+
+.timeline-item:nth-child(even) {
+  left: 50%;
+  text-align: left;
 }
-.timeline-event {
-    z-index: 1; /* Zajistí, že události jsou nad fázemi */
-    }
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  top: 1.5rem;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  border: 3px solid #4a5568;
+  z-index: 1;
+}
+
+.timeline-item:nth-child(odd)::before {
+  right: -9px;
+}
+
+.timeline-item:nth-child(even)::before {
+  left: -9px;
+}
+
+.timeline-year {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #2d3748;
+  margin-bottom: 0.3rem;
+}
+
+.timeline-content {
+  background: #f7fafc;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.timeline-content h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: #2b6cb0;
+}
+
+.timeline-content p {
+  margin: 0.2rem 0;
+}
+
+.timeline-characters {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+#timeline-filters {
+  text-align: center;
+  margin: 1rem 0 2rem;
+}
+
+#timeline-filters button {
+  background: #2b6cb0;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#timeline-filters button:hover {
+  background: #2c5282;
+}
+
+/* === DARK MODE === */
+@media (prefers-color-scheme: dark) {
+  #timeline-container::before {
+    background: #444;
+  }
+
+  .timeline-item::before {
+    background: #1a202c;
+    border-color: #63b3ed;
+  }
+
+  .timeline-year {
+    color: #e2e8f0;
+  }
+
+  .timeline-content {
+    background: #2d3748;
+    color: #e2e8f0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+  }
+
+  .timeline-content h3 {
+    color: #63b3ed;
+  }
+
+  .timeline-characters {
+    color: #a0aec0;
+  }
+
+  #timeline-filters button {
+    background: #3182ce;
+    color: white;
+  }
+
+  #timeline-filters button:hover {
+    background: #2b6cb0;
+  }
+} 
