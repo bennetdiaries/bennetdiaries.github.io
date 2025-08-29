@@ -106,7 +106,7 @@ exclude:
 # ----------------------------------------------------
 timeline:
   start_year: 1797
-  end_year: 1881
+  end_year: 2025
   
   # Fáze pro vizuální rozdělení osy
   phases:
