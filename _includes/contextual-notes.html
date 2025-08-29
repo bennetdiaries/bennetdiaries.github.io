@@ -48,8 +48,16 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     // Oblast, kde se mají hledat zmínky (hlavní obsah)
-    const contentArea = document.querySelector('main');
+const contentArea = document.querySelector('main');
+// Vyloučíme oblast s filtry časové osy, aby se neprolinkovala tlačítka
+const filtersToRemove = contentArea ? contentArea.querySelector('#timeline-filters') : null;
+if (filtersToRemove) {
+    filtersToRemove.remove();
+}
     if (!contentArea) return;
+    if (filtersToRemove) {
+     contentArea.prepend(filtersToRemove);
+    }
 
     // Projdeme všechny postavy a jejich jmenné varianty
     Object.keys(characters).forEach(charKey => {
