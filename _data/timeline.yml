@@ -1,0 +1,248 @@
+# _data/timeline.yml
+# Master timeline převedený z bennet_master_timeline.md
+# Každá položka: year, type (B/F/T/H/S), title, description, optional characters
+
+- year: 1797
+  type: "B"
+  title: "Bradbury Bennet is born"
+  description: "Bradbury Bennet is born at The Larches, Somerset."
+
+- year: 1805
+  type: "T"
+  title: "Alaric Thorne is born"
+  description: "Alaric Thorne is born in Manchester."
+
+- year: "c.1815-1818"
+  type: "B"
+  title: "Bennet at Trinity College"
+  description: "Bennet attends Trinity College, Cambridge, studying Natural Philosophy."
+
+- year: 1819
+  type: "B"
+  title: "Bennet begins his first journal"
+  description: "Bennet begins his first journal — the earliest volume in the discovered collection."
+
+- year: "c.1817"
+  type: "F"
+  title: "Adelaide Mably is born"
+  description: "Adelaide Mably is born in London."
+
+- year: 1820
+  type: "H"
+  title: "Rise of the Mechanics' Institutes"
+  description: "Mechanics' Institutes provide technical education to working men across Britain."
+
+- year: 1825
+  type: "H"
+  title: "Stockton and Darlington Railway opens"
+  description: "Opening of the Stockton and Darlington Railway — early public steam railway."
+
+- year: 1826
+  type: "B"
+  title: "Bennet digs pools to save amphibians"
+  description: "During a severe summer drought Bennet digs pools in a dry creek bed to save local amphibians — a formative naturalist experience."
+
+- year: "c.1825-1830"
+  type: "T"
+  title: "Thorne's apprenticeship"
+  description: "Alaric Thorne undergoes apprenticeship in civil engineering and architecture in Manchester."
+
+- year: 1830
+  type: "H"
+  title: "Liverpool and Manchester Railway opens"
+  description: "Opening of the Liverpool & Manchester Railway, an event that profoundly influences industrial engineers like Thorne."
+
+- year: "1831-1836"
+  type: "H"
+  title: "Second voyage of HMS Beagle"
+  description: "Charles Darwin's second voyage on HMS Beagle, a landmark in natural history."
+
+- year: "c.1832"
+  type: "T"
+  title: "Thorne marries Lydia Chadwick"
+  description: "Alaric Thorne marries Lydia Chadwick."
+
+- year: 1832
+  type: "H"
+  title: "Great Reform Act"
+  description: "The Great Reform Act restructures the British electoral system."
+
+- year: "c.1835"
+  type: "T"
+  title: "Lydia Thorne dies"
+  description: "Lydia Thorne dies of fever in Manchester; Thorne begins his solitary 'night walks.'"
+
+- year: "c.1837"
+  type: "F"
+  title: "Adelaide Mably marries Dr. Alistair Finch"
+  description: "An arranged marriage links Adelaide Mably with Dr. Alistair Finch."
+
+- year: 1837
+  type: "H"
+  title: "Victoria becomes Queen"
+  description: "Queen Victoria ascends to the throne, starting the Victorian era."
+
+- year: 1838
+  type: "H"
+  title: "Chartist movement begins"
+  description: "The Chartist movement advocates for universal male suffrage; Chartist rallies are prominent in industrial towns."
+
+- year: 1839
+  type: "H"
+  title: "Daguerre's photographic process"
+  description: "Louis Daguerre introduces his photographic process."
+
+- year: 1842
+  type: "B"
+  title: "Bennet publishes monograph"
+  description: "Bennet publishes a privately printed 'Monograph on the Coleoptera of the Mendip Hills'."
+
+- year: 1842
+  type: "S"
+  title: "Bennet meets Adelaide Finch"
+  description: "Bennet attends a mesmerism lecture and meets Mrs. Adelaide Finch — the beginning of their correspondence."
+
+- year: 1843
+  type: "H"
+  title: "Early telegraph lines"
+  description: "The first telegraph lines are established, transforming communication."
+
+- year: 1844
+  type: "T"
+  title: "Thorne publishes on metal fatigue"
+  description: "Alaric Thorne publishes 'On the Logic of Metal Fatigue.'"
+
+- year: 1845
+  type: "S"
+  title: "The epistolary triangle forms"
+  description: "Bennet, Thorne and Finch form an epistolary connection — the 'Night Walkers' exchange ideas and letters."
+
+- year: "1846-08-11"
+  type: "B"
+  title: "Bennet observes meteor shower"
+  description: "On August 11 Bennet observes an annual meteor shower and reflects on celestial order versus spiritualist claims."
+
+- year: "1847-11-04"
+  type: "B"
+  title: "Herbarium census"
+  description: "Bennet conducts a census of his herbarium and decides to begin a systematic survey amid the 'Pteridomania'."
+
+- year: 1848
+  type: "H"
+  title: "Year of Revolutions"
+  description: "European revolutions and publication of The Communist Manifesto; social upheaval reflected on in correspondence."
+
+- year: 1851
+  type: "B"
+  title: "Notes on seed dispersal"
+  description: "Bennet publishes 'Notes on the Dispersal of Seeds by Avian Means' in a provincial-naturalist periodical."
+
+- year: 1851
+  type: "H"
+  title: "Great Exhibition"
+  description: "The Great Exhibition at the Crystal Palace; engineers and naturalists travel to London to study technological spectacle."
+
+- year: "1852-06-08"
+  type: "B"
+  title: "Bennet sits for calotype portrait"
+  description: "Reluctantly sits for a calotype portrait in Taunton — the only known likeness of Bennet."
+
+- year: "1852-07-03"
+  type: "S"
+  title: "Daguerreotype of Adelaide Finch"
+  description: "Bennet receives a daguerreotype portrait of Adelaide Finch inscribed 'A record of light from a salon full of shadows.'"
+
+- year: "c.1852"
+  type: "B"
+  title: "Acoustic Pest Repeller"
+  description: "Bennet constructs an 'Acoustic Pest Repeller' — an eccentric practical device."
+
+- year: "1853-08-15"
+  type: "B"
+  title: "Summer drought memory"
+  description: "A summer drought recalls Bennet's youthful intervention in 1826."
+
+- year: 1854
+  type: "H"
+  title: "John Snow and cholera"
+  description: "John Snow links a cholera outbreak to a contaminated pump, marking progress in epidemiology."
+
+- year: "1853-1856"
+  type: "H"
+  title: "Crimean War"
+  description: "The Crimean War affects public sentiment and industrial demand."
+
+- year: 1857
+  type: "H"
+  title: "Indian Mutiny (Sepoy Rebellion)"
+  description: "The Indian Mutiny (1857) reverberates across British public opinion."
+
+- year: 1858
+  type: "H"
+  title: "The Great Stink & Bazalgette"
+  description: "The 'Great Stink' leads to Bazalgette's sewer works in London — an engineering landmark."
+
+- year: 1859
+  type: "H"
+  title: "Darwin publishes Origin"
+  description: "Charles Darwin publishes 'On the Origin of Species', provoking sustained reflection among the correspondents."
+
+- year: "1861-1865"
+  type: "H"
+  title: "American Civil War & Cotton Famine"
+  description: "The American Civil War and the Lancashire Cotton Famine have economic and social impacts in Manchester."
+
+- year: 1862
+  type: "B"
+  title: "Last year of main Bennet diaries"
+  description: "1862 marks the last year of the main collection of Bennet's discovered diaries."
+
+- year: 1863
+  type: "H"
+  title: "London Underground opens (first section)"
+  description: "The opening of the first section of the London Underground."
+
+- year: 1869
+  type: "H"
+  title: "Suez Canal opens"
+  description: "The opening of the Suez Canal, an engineering and global-trade milestone."
+
+- year: "1870s"
+  type: "H"
+  title: "Rise of women's suffrage movement"
+  description: "Growth of the women's suffrage movement in Britain."
+
+- year: 1876
+  type: "H"
+  title: "Bell patents the telephone"
+  description: "Alexander Graham Bell patents the telephone."
+
+- year: 1878
+  type: "F"
+  title: "Adelaide Finch dies"
+  description: "Adelaide Finch dies in London, aged approximately 61; correspondence becomes more somber."
+
+- year: 1879
+  type: "T"
+  title: "Alaric Thorne dies"
+  description: "Alaric Thorne dies in Manchester, aged about 74."
+
+- year: 1881
+  type: "B"
+  title: "Bradbury Bennet dies"
+  description: "Bradbury Bennet dies at The Larches, aged 84."
+
+- year: "1881-2024"
+  type: "H"
+  title: "Archival silence"
+  description: "Bennet's diaries and papers are sealed and hidden in The Larches library."
+
+- year: 2024
+  type: "H"
+  title: "Discovery of deed box"
+  description: "A stonemason discovers the deed box containing Bennet's archive during a survey."
+
+- year: 2025
+  type: "H"
+  title: "Project begins"
+  description: "Dr. Evelyn Reed begins transcription and publication of The Bennet Diaries Project."
