@@ -1,0 +1,44 @@
+---
+title: Interactive Timeline
+layout: default
+---
+
+<div class="timeline-header">
+    <h2>Interactive Timeline of the Bennet Archive</h2>
+    <p>Explore the personal lives of the Night Walkers set against the backdrop of Victorian history. Click on any event for more details.</p>
+</div>
+
+<!-- Filtry -->
+<div id="timeline-filters">
+    <div class="filter-group">
+        <strong>Filter by Character:</strong>
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="B" style="--char-color: {{ site.characters.bradbury_bennet.color }};">Bennet</button>
+        <button class="filter-btn" data-filter="F" style="--char-color: {{ site.characters.adelaide_finch.color }};">Finch</button>
+        <button class="filter-btn" data-filter="T" style="--char-color: {{ site.characters.alaric_thorne.color }};">Thorne</button>
+    </div>
+    <div class="filter-group">
+        <strong>Filter by Type:</strong>
+        <button class="filter-btn" data-filter="H" style="--char-color: #6c757d;">Historical</button>
+        <button class="filter-btn" data-filter="S" style="--char-color: #8a2be2;">Night Walkers</button>
+    </div>
+</div>
+
+<!-- Kontejner pro časovou osu -->
+<div class="timeline-wrapper">
+    <div id="timeline-container">
+        <!-- JavaScript sem dynamicky vloží osu -->
+    </div>
+</div>
+
+<!-- Modální okno pro detaily události (skryté) -->
+<div id="event-modal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h3 id="modal-title"></h3>
+        <p><strong>Date:</strong> <span id="modal-date"></span></p>
+        <p id="modal-description"></p>
+        <p><em><strong>Significance:</strong> <span id="modal-significance"></span></em></p>
+        <a id="modal-link" href="#" style="display:none;">Read Journal Entry &rarr;</a>
+    </div>
+          </div>
