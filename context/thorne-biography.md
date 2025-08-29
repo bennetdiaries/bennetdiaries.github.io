@@ -1,4 +1,8 @@
-# Alaric Thorne: The Engineer-Poet of Manchester
+---
+title: Alaric Thorne - The Engineer-Poet of Manchester
+---
+
+# Alaric Thorne - The Engineer-Poet of Manchester
 
 Alaric Thorne (1805–1879) stands as one of the two pillars of Bradbury Bennet's later intellectual life. An engineer and architect from Manchester, Thorne represented a world utterly alien to Bennet's quiet Somerset existence—a world of iron, steam, and relentless industry. Yet, through a correspondence spanning nearly two decades, the two men discovered a profound common ground in their shared pursuit of underlying order and their mutual distaste for unsubstantiated claims.
 
