@@ -1,19 +1,23 @@
 ---
 ---
+// Důležité: Ty pomlčky nahoře musí zůstat, aby Jekyll tento soubor zpracoval!
+
 document.addEventListener('DOMContentLoaded', function() {
-    // Získání dat z _config.yml (Jekyll je převede na JSON)
-    // Pozor: Toto je speciální Jekyll syntaxe, která funguje jen v souborech .js, které mají na začátku ---
-    const timelineData = JSON.parse('{{ site.timeline | jsonify }}');
-    const siteBaseUrl = '{{ site.baseurl }}';
+    // Načtení dat z _config.yml. Jekyll je převede na JavaScriptový objekt.
+    const timelineData = {{ site.timeline | jsonify }};
+    const siteBaseUrl = '{{ site.baseurl | relative_url }}';
 
     const container = document.getElementById('timeline-container');
-    if (!container || !timelineData) return;
+    if (!container || !timelineData) {
+        console.error("Timeline container or data not found.");
+        return;
+    }
 
     const startYear = timelineData.start_year;
     const endYear = timelineData.end_year;
     const totalDuration = endYear - startYear;
 
-    // 1. Vykreslení fází
+    // Vykreslení fází jako pozadí
     timelineData.phases.forEach(phase => {
         const phaseEl = document.createElement('div');
         phaseEl.className = 'timeline-phase';
@@ -33,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
         container.appendChild(phaseEl);
     });
 
-    // 2. Vykreslení událostí
+    // Vykreslení událostí
     timelineData.events.forEach((event, index) => {
         const eventEl = document.createElement('div');
         eventEl.className = `timeline-event event-${index % 2 === 0 ? 'up' : 'down'}`;
@@ -52,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const title = document.createElement('div');
         title.className = 'event-title';
-        title.textContent = `${event.year}: ${event.title}`;
+        title.innerHTML = `<strong>${event.year}</strong><br>${event.title}`;
 
         eventEl.appendChild(marker);
         eventEl.appendChild(title);
@@ -61,23 +65,29 @@ document.addEventListener('DOMContentLoaded', function() {
         marker.addEventListener('click', () => showModal(event));
     });
 
-    // 3. Ovládání modálního okna
+    // Ovládání modálního okna
     const modal = document.getElementById('event-modal');
     const closeBtn = modal.querySelector('.close-button');
     
     function showModal(event) {
-        modal.querySelector('#modal-title').textContent = event.title;
+        modal.querySelector('#modal-title').textContent = `${event.year}: ${event.title}`;
         modal.querySelector('#modal-date').textContent = event.year;
         modal.querySelector('#modal-description').textContent = event.description;
         modal.querySelector('#modal-significance').textContent = event.significance;
         
         const link = modal.querySelector('#modal-link');
         if (event.entry_link) {
-            let url = event.entry_link.includes('/') ? `${siteBaseUrl}/${event.entry_link}.html` : `${siteBaseUrl}/entries/${event.entry_link}.html`;
+            let url;
+            if (event.entry_link.startsWith('http')) {
+                url = event.entry_link;
+            } else if (event.entry_link.includes('-')) {
+                 url = `${siteBaseUrl}/entries/${event.entry_link}.html`;
+            } else {
+                 url = `${siteBaseUrl}/context/${event.entry_link}.html`;
+            }
             if (event.entry_link === 'about') url = `${siteBaseUrl}/about.html`;
-            
             link.href = url;
-            link.style.display = 'block';
+            link.style.display = 'inline-block';
         } else {
             link.style.display = 'none';
         }
@@ -87,12 +97,12 @@ document.addEventListener('DOMContentLoaded', function() {
     closeBtn.onclick = () => modal.style.display = 'none';
     window.onclick = (e) => { if (e.target == modal) modal.style.display = 'none'; };
 
-    // 4. Ovládání filtrů
-    const filterButtons = document.querySelectorAll('.filter-btn');
+    // Ovládání filtrů
+    const filterButtons = document.querySelectorAll('#timeline-filters .filter-btn');
     filterButtons.forEach(button => {
         button.addEventListener('click', () => {
             const filter = button.dataset.filter;
-            document.querySelector('.filter-btn.active').classList.remove('active');
+            document.querySelector('#timeline-filters .filter-btn.active').classList.remove('active');
             button.classList.add('active');
 
             document.querySelectorAll('.timeline-event').forEach(eventEl => {
