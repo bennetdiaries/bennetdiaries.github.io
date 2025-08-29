@@ -26,8 +26,12 @@
         <hr>
         <p><small>&copy; 2024 The Bennet Diaries Project. Curated by {{ site.author.name }}.</small></p>
     </footer>
-    
-    <!-- Zde vložíme skript pro poznámky -->
-    {% include contextual-notes.html %}
+<!-- Kontextové poznámky -->
+{% include contextual-notes.html %}
+
+<!-- JavaScript pro časovou osu (načte se jen na timeline.html) -->
+{% if page.url == '/timeline.html' %}
+<script src="{{ '/assets/js/timeline.js' | relative_url }}"></script>
+{% endif %}
 </body>
-  </html>
+</html>
