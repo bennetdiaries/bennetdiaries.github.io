@@ -1,3 +1,8 @@
+---
+title: Gallery of Artefacts
+layout: default
+---
+
 # Gallery of Artefacts
 
 This gallery contains digital reproductions of key artefacts from the Bennet Archive. Due to the fragile nature of the original items, public access is limited to these digital scans.
