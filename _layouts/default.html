@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title | default: site.title }}</title>
-    <style>
-        /* Zde budou základní styly - přidáme později */
-        body { font-family: serif; line-height: 1.6; max-width: 800px; margin: 20px auto; padding: 20px; background: #fdfdfd; }
-        h1, h2, h3 { color: #333; }
-        blockquote { border-left: 2px solid #ccc; padding-left: 1em; margin-left: 1em; font-style: italic; color: #555; }
-        .editor-note { border: 1px solid #ddd; background: #f9f9f9; padding: 1em; margin-top: 1em; font-size: 0.9em; }
-    </style>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    
+    <!-- Victorian academic fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
