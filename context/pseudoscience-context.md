@@ -1,4 +1,8 @@
-# A Note on 19th-Century Pseudoscience: Mesmerism and Phrenology
+---
+title: A Note on 19th-Century Pseudoscience - Mesmerism and Phrenology
+---
+
+# A Note on 19th-Century Pseudoscience - Mesmerism and Phrenology
 
 Bradbury Bennet's diaries are a rich source for understanding the profound intellectual schism of the 19th century. While formal science was making great leaps in fields like geology and biology, a parallel world of popular pseudoscience flourished, capturing the public imagination and filling the salons of London and Bath. Bennet’s journals meticulously document his encounters with proponents of these movements, particularly mesmerism and phrenology, which he viewed not as harmless fads, but as a serious intellectual contagion.
 
