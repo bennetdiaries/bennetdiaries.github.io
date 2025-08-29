@@ -1,3 +1,8 @@
+---
+title: The Bennet Diaries Project
+layout: default
+---
+
 # The Bennet Diaries Project
 
 *An Archive of the Journals and Correspondence of Bradbury Bennet, Esq. (1797–1881)*
