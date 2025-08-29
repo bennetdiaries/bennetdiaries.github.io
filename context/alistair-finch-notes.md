@@ -1,3 +1,7 @@
+---
+title: Notes on Dr. Alistair Finch
+---
+
 # Notes on Dr. Alistair Finch
 
 Dr. Alistair Finch (c. 1800–1875) occupies a peculiar and significant place in the Bennet Archive. He was never a correspondent and likely never knew of Bradbury Bennet's existence. Yet, as the husband of Adelaide Finch and a leading London proponent of mesmerism, he appears in Bennet's journals more frequently than almost any other public figure, serving as Bennet's quintessential intellectual antagonist—a symbol of the very "faddish certainty" and "theatrical pseudoscience" Bennet so thoroughly disdained.
