@@ -1,146 +1,128 @@
-/* === ZÁKLADNÍ STYLING TIMELINE === */
-#timeline-container {
+ /* assets/css/timeline.css
+   Clean vertical timeline, matches site link color via --link-color (fallback used)
+*/
+
+:root {
+  --link-color: #5a8f7b; /* fallback, will be overridden if your site sets the variable */
+  --muted: #6b7280;
+  --card-bg: #fafafa;
+  --card-border: rgba(0,0,0,0.03);
+}
+
+/* Page / container */
+.page-header .lead {
+  color: var(--muted);
+  margin-bottom: 1rem;
+}
+
+.timeline-container {
+  max-width: 900px;
+  margin: 2.5rem auto;
+  padding: 1rem;
+}
+
+/* Vertical spine */
+.timeline {
   position: relative;
-  margin: 2rem auto;
-  padding: 1rem 0;
-  width: 90%;
-  max-width: 800px;
+  margin-left: 3rem;
+  padding-left: 2rem;
+  border-left: 4px solid var(--link-color);
 }
 
-#timeline-container::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 0;
-  bottom: 0;
-  width: 3px;
-  background: #ccc;
-  transform: translateX(-50%);
-}
-
+/* Individual item */
 .timeline-item {
   position: relative;
-  width: 50%;
-  padding: 1rem 2rem;
-  box-sizing: border-box;
+  margin-bottom: 2rem;
+  padding-left: 1rem;
 }
 
-.timeline-item:nth-child(odd) {
-  left: 0;
-  text-align: right;
-}
-
-.timeline-item:nth-child(even) {
-  left: 50%;
-  text-align: left;
-}
-
-.timeline-item::before {
-  content: "";
+.timeline-marker {
   position: absolute;
-  top: 1.5rem;
+  left: -3.625rem; /* aligns marker left of the spine */
+  top: 0.5rem;
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background: #fff;
-  border: 3px solid #4a5568;
-  z-index: 1;
+  background: white;
+  border: 4px solid var(--link-color);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
 }
 
-.timeline-item:nth-child(odd)::before {
-  right: -9px;
-}
-
-.timeline-item:nth-child(even)::before {
-  left: -9px;
+/* Body card */
+.timeline-body {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  padding: 0.9rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.03);
 }
 
 .timeline-year {
-  font-weight: bold;
-  font-size: 1.2rem;
-  color: #2d3748;
-  margin-bottom: 0.3rem;
+  display: block;
+  font-weight: 700;
+  color: var(--link-color);
+  margin-bottom: 0.25rem;
 }
 
-.timeline-content {
-  background: #f7fafc;
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+.timeline-title {
+  margin: 0 0 0.35rem 0;
+  font-size: 1.05rem;
 }
 
-.timeline-content h3 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  font-size: 1.1rem;
-  color: #2b6cb0;
-}
-
-.timeline-content p {
-  margin: 0.2rem 0;
+.timeline-description {
+  margin: 0;
+  line-height: 1.5;
+  color: #374151;
 }
 
 .timeline-characters {
+  margin-top: 0.5rem;
+  color: #4b5563;
   font-style: italic;
-  font-size: 0.9rem;
-  color: #555;
+  font-size: 0.95rem;
 }
 
-#timeline-filters {
-  text-align: center;
-  margin: 1rem 0 2rem;
+/* Type color accents (marker border and a thin left border on the card) */
+.type-b { border-color: #1e88e5 !important; } /* Birth */
+.type-f { border-color: #43a047 !important; } /* Family */
+.type-h { border-color: #e53935 !important; } /* History */
+.type-s { border-color: #8e24aa !important; } /* Society/Story */
+.type-t { border-color: #fbc02d !important; } /* Technology/Other */
+
+/* apply same accent to the card left edge for stronger visual cue */
+.type-b + .timeline-body { box-shadow: none; border-left: 6px solid #1e88e5; }
+.type-f + .timeline-body { box-shadow: none; border-left: 6px solid #43a047; }
+.type-h + .timeline-body { box-shadow: none; border-left: 6px solid #e53935; }
+.type-s + .timeline-body { box-shadow: none; border-left: 6px solid #8e24aa; }
+.type-t + .timeline-body { box-shadow: none; border-left: 6px solid #fbc02d; }
+
+/* Responsive */
+@media (max-width: 700px) {
+  .timeline {
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border-left-width: 3px;
+  }
+  .timeline-marker {
+    left: -2.5rem;
+  }
+  .type-b + .timeline-body,
+  .type-f + .timeline-body,
+  .type-h + .timeline-body,
+  .type-s + .timeline-body,
+  .type-t + .timeline-body {
+    border-left-width: 4px;
+  }
 }
 
-#timeline-filters button {
-  background: #2b6cb0;
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  margin: 0.2rem;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-
-#timeline-filters button:hover {
-  background: #2c5282;
-}
-
-/* === DARK MODE === */
+/* Dark mode support */
 @media (prefers-color-scheme: dark) {
-  #timeline-container::before {
-    background: #444;
+  :root {
+    --card-bg: #1f2937;
+    --card-border: rgba(255,255,255,0.04);
+    --muted: #9CA3AF;
   }
-
-  .timeline-item::before {
-    background: #1a202c;
-    border-color: #63b3ed;
-  }
-
-  .timeline-year {
-    color: #e2e8f0;
-  }
-
-  .timeline-content {
-    background: #2d3748;
-    color: #e2e8f0;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.6);
-  }
-
-  .timeline-content h3 {
-    color: #63b3ed;
-  }
-
-  .timeline-characters {
-    color: #a0aec0;
-  }
-
-  #timeline-filters button {
-    background: #3182ce;
-    color: white;
-  }
-
-  #timeline-filters button:hover {
-    background: #2b6cb0;
-  }
+  .timeline-body { color: #e6eef8; }
+  .timeline-description { color: #cbd5e1; }
+  .timeline-characters { color: #9aa7b2; }
 } 
