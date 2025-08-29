@@ -1,1 +1,122 @@
-To be added
+<!-- Skript pro automatické kontextové poznámky -->
+<style>
+/* Základní styl pro zmíněné postavy */
+.contextual-link {
+    cursor: help;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    border-radius: 3px;
+    padding: 1px 3px;
+    margin: 0 -3px;
+}
+
+/* Efekt při najetí myší */
+.contextual-link:hover {
+    color: #fff !important; /* Důležité pro přepsání jiných stylů */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    
+    // Načtení dat o postavách z Jekyll konfigurace
+    const characters = {
+    {% for character in site.characters %}
+        '{{ character[0] }}': {
+            name: '{{ character[1].name | escape }}',
+            title: '{{ character[1].title | escape }}',
+            years: '{{ character[1].years | escape }}',
+            location: '{{ character[1].location | escape }}',
+            link: '{{ character[1].link | relative_url }}',
+            color: '{{ character[1].color }}',
+            patterns: [
+                '{{ character[1].name }}',
+                {% assign name_parts = character[1].name | split: ' ' %}
+                {% if name_parts.size > 1 %}
+                '{{ name_parts | last }}',
+                'Mr. {{ name_parts | last }}',
+                'Mrs. {{ name_parts | last }}',
+                'Dr. {{ name_parts | last }}',
+                {% endif %}
+                {% if character[0] == 'bradbury_bennet' %}'B. Bennet'{% endif %}
+            ]
+        }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+    };
+
+    // Oblast, kde se mají hledat zmínky (hlavní obsah)
+    const contentArea = document.querySelector('main');
+    if (!contentArea) return;
+
+    // Projdeme všechny postavy a jejich jmenné varianty
+    Object.keys(characters).forEach(charKey => {
+        const character = characters[charKey];
+        
+        // Vytvoříme regulární výraz pro všechna jména postavy.
+        // Zajistí, že se bude shodovat pouze s celými slovy.
+        const regex = new RegExp(`\\b(${character.patterns.join('|')})\\b`, 'gi');
+        
+        // Projdeme všechny textové uzly v obsahu
+        const walker = document.createTreeWalker(contentArea, NodeFilter.SHOW_TEXT, null, false);
+        let node;
+        const nodesToProcess = [];
+        while (node = walker.nextNode()) {
+            // Vyloučíme skripty, styly a již existující odkazy
+            const parentTag = node.parentElement.tagName.toUpperCase();
+            if (parentTag !== 'SCRIPT' && parentTag !== 'STYLE' && parentTag !== 'A') {
+                nodesToProcess.push(node);
+            }
+        }
+        
+        // Zpracujeme nalezené textové uzly
+        nodesToProcess.forEach(textNode => {
+            const text = textNode.textContent;
+            if (regex.test(text)) {
+                
+                const fragment = document.createDocumentFragment();
+                let lastIndex = 0;
+                
+                text.replace(regex, (match, ...args) => {
+                    const offset = args[args.length - 2];
+                    
+                    // Přidáme text před shodou
+                    if (offset > lastIndex) {
+                        fragment.appendChild(document.createTextNode(text.substring(lastIndex, offset)));
+                    }
+                    
+                    // Vytvoříme a nastylovaný odkaz (<span>)
+                    const span = document.createElement('span');
+                    span.textContent = match;
+                    span.className = 'contextual-link';
+                    span.style.borderBottom = `2px dotted ${character.color}`;
+                    span.title = `${character.name} (${character.years})\n${character.title}, ${character.location}`;
+                    
+                    // Při kliknutí přesměruje na profil
+                    span.onclick = (e) => {
+                        e.preventDefault();
+                        window.location.href = character.link;
+                    };
+                    
+                    // Efekt při najetí myší
+                    span.onmouseenter = () => { span.style.backgroundColor = character.color; };
+                    span.onmouseleave = () => { span.style.backgroundColor = 'transparent'; };
+
+                    fragment.appendChild(span);
+                    lastIndex = offset + match.length;
+                });
+
+                // Přidáme zbytek textu po poslední shodě
+                if (lastIndex < text.length) {
+                    fragment.appendChild(document.createTextNode(text.substring(lastIndex)));
+                }
+                
+                // Nahradíme původní textový uzel novým fragmentem s odkazy
+                textNode.parentNode.replaceChild(fragment, textNode);
+            }
+        });
+    });
+});
+  </script> 
