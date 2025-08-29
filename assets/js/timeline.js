@@ -1,3 +1,5 @@
+---
+---
 document.addEventListener('DOMContentLoaded', function() {
     // Získání dat z _config.yml (Jekyll je převede na JSON)
     // Pozor: Toto je speciální Jekyll syntaxe, která funguje jen v souborech .js, které mají na začátku ---
