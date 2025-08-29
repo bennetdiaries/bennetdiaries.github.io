@@ -1,5 +1,5 @@
 ---
-title: Alaric Thorne - The Engineer-Poet of Manchester
+title: Alaric Thorne - The Engineer - Poet of Manchester
 ---
 
 # Alaric Thorne - The Engineer-Poet of Manchester
