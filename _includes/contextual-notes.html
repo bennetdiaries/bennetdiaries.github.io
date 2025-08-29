@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     // Oblast, kde se mají hledat zmínky (hlavní obsah)
-const contentArea = document.querySelector('main');
+const contentArea = document.querySelector('.content-body');
 // Vyloučíme oblast s filtry časové osy, aby se neprolinkovala tlačítka
 const filtersToRemove = contentArea ? contentArea.querySelector('#timeline-filters') : null;
 if (filtersToRemove) {
