@@ -84,3 +84,27 @@
 }
 .close-button:hover { color: #333; }
 #modal-link { display: block; margin-top: 1em; font-weight: bold; }
+
+/* --- Fáze na ose --- */
+.timeline-phase {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    opacity: 0.5;
+    z-index: 0;
+}
+.phase-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgba(0,0,0,0.2);
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+}
+.timeline-event {
+    z-index: 1; /* Zajistí, že události jsou nad fázemi */
+    }
