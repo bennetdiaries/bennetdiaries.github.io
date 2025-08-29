@@ -1,3 +1,8 @@
+---
+title: About the Project
+layout: default
+---
+
 # About the Project & The Discovery
 
 The Bennet Diaries Project was established in 2024 following the remarkable discovery of a significant collection of primary source material related to the life and thoughts of Bradbury Bennet, a hitherto almost unknown gentleman-naturalist of Somerset. Our mission is to transcribe, annotate, and make this unique archive accessible to both the scholarly community and the wider public.
