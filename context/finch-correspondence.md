@@ -1,3 +1,7 @@
+---
+title: The Finch-Bennet Correspondence
+---
+
 # The Finch-Bennet Correspondence
 
 Among the most significant revelations from the discovery of the Bennet Archive is the extensive, two-decade correspondence between Bradbury Bennet and Mrs. Adelaide Finch of London. While Bennet's journal offers a window into his own mind, these letters reveal his sole intellectual and emotional sanctuary—a relationship of profound respect and shared understanding with a woman he considered a brilliant anomaly in an age of credulity.
