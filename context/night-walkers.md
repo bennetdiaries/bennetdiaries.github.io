@@ -2,7 +2,7 @@
 title: The Society of Night Walkers - An Epistolary Community
 ---
 
-# The Society of Night Walkers: An Epistolary Community
+# The Society of Night Walkers - An Epistolary Community
 
 One of the most compelling discoveries within the Bennet Archive is not a single document, but the emergent shape of a hidden intellectual community. It was a society with no formal charter, no meetings, and no name until Bradbury Bennet himself coined one in a letter to Mrs. Finch: **The Society of Night Walkers**. This epistolary triangle, with Bennet as its hub, connected three brilliant but isolated minds: Bennet in the quietude of Somerset, Adelaide Finch in the drawing-room artifice of London, and Alaric Thorne amidst the industrial din of Manchester.
 
