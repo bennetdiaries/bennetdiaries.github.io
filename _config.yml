@@ -100,3 +100,147 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+
+# ----------------------------------------------------
+# --- Sekce pro interaktivní časovou osu ---
+# ----------------------------------------------------
+timeline:
+  start_year: 1797
+  end_year: 1881
+  
+  # Fáze pro vizuální rozdělení osy
+  phases:
+    - name: "Foundations"
+      period: "1797-1841"
+      description: "The formation of three remarkable minds in an age of revolution."
+      color: "#e8f0e8"
+    - name: "The Confluence" 
+      period: "1842-1858"
+      description: "The golden age of correspondence and intellectual exchange."
+      color: "#e6f0f7"
+    - name: "Divergence & Legacy"
+      period: "1859-1881" 
+      description: "The final years and the end of an epistolary era."
+      color: "#f7f2e6"
+
+  # Definice postav a jejich barev pro osu
+  characters:
+    - id: "B"
+      name: "Bradbury Bennet"
+      color: "#2E8B57" # Zelená
+    - id: "F"
+      name: "Adelaide Finch"
+      color: "#4682B4" # Modrá
+    - id: "T"
+      name: "Alaric Thorne"
+      color: "#B8860B" # Zlatá/Okrová
+    - id: "H"
+      name: "Historical Events"
+      color: "#696969" # Šedá
+    - id: "S"
+      name: "Society of Night Walkers"
+      color: "#800080" # Fialová
+
+  # Jednotlivé události na časové ose
+  events:
+    - year: 1797
+      type: "B"
+      title: "Bradbury Bennet Born"
+      description: "Born at The Larches estate near Frome, Somerset. Future gentleman-naturalist and skeptical observer of Victorian society."
+      significance: "Beginning of our central figure's journey."
+    
+    - year: 1805
+      type: "T"
+      title: "Alaric Thorne Born"
+      description: "Born in Manchester during the early industrial revolution. Future civil engineer and poet of industrial landscapes."
+      significance: "The engineer-philosopher enters the world."
+      
+    - year: 1817
+      type: "F"
+      title: "Adelaide Mably Born"
+      description: "Born in London. Future salon hostess and secret intellectual rebel."
+      significance: "The melancholic rationalist enters the world."
+
+    - year: 1835
+      type: "T"
+      title: "Lydia's Death"
+      description: "Lydia Thorne dies of fever in Manchester. Thorne is devastated and begins his solitary night walks through the industrial city."
+      significance: "Tragedy that shapes Thorne's entire worldview and methodology."
+
+    - year: 1837
+      type: "H"
+      title: "Queen Victoria's Accession"
+      description: "18-year-old Victoria becomes Queen. The Victorian era officially begins."
+      significance: "The age that will define the characters' adult lives."
+      
+    - year: 1842
+      type: "S"
+      title: "The Fateful Meeting"
+      description: "Bennet attends Dr. Alistair Finch's mesmerism lecture in London. He meets Adelaide Finch and recognizes a kindred skeptical spirit. Their correspondence begins."
+      significance: "Foundation of the most important intellectual relationship in the archive."
+      entry_link: "finch-correspondence" # Odkaz na soubor v context/
+
+    - year: 1844
+      type: "T"
+      title: "Metal Fatigue Treatise"
+      description: "Thorne publishes 'A Treatise on the Logic of Metal Fatigue', combining technical precision with philosophical metaphor."
+      significance: "The work that brings Thorne to Bennet's attention."
+      
+    - year: 1845
+      type: "S"
+      title: "Society of Night Walkers Formed"
+      description: "Bennet initiates correspondence with Thorne. The epistolary triangle is completed. Thorne's term 'night walker' becomes their shared identity."
+      significance: "Birth of a secret intellectual community."
+      entry_link: "night-walkers" # Odkaz na soubor v context/
+
+    - year: 1851
+      type: "H"
+      title: "Great Exhibition Opens"
+      description: "The Crystal Palace showcases industrial and cultural achievements. A perfect case study for the Night Walkers' different perspectives."
+      significance: "A major cultural and industrial event of the era."
+      
+    - year: 1852
+      type: "B"
+      title: "The Calotype Ordeal"
+      description: "June 8: Dr. Caldwell persuades a reluctant Bennet to sit for his portrait in Taunton. It is the only authenticated likeness of him."
+      significance: "A rare glimpse into Bennet's personal relationships and views on vanity."
+      entry_link: "1852-06-08" # Odkaz na soubor v entries/
+
+    - year: 1852
+      type: "F"
+      title: "A Record of Light"
+      description: "July 3: Adelaide sends her photographic portrait to Bennet with the inscription 'A record of light from a salon full of shadows.'"
+      significance: "A profound moment of trust and intimacy in their correspondence."
+      entry_link: "1852-07-03"
+
+    - year: 1859
+      type: "H"
+      title: "Darwin's Origin Published"
+      description: "'On the Origin of Species' revolutionizes natural philosophy, deeply impacting the worldviews of all three Night Walkers."
+      significance: "An intellectual earthquake that validates and challenges their thinking."
+
+    - year: 1878
+      type: "F"
+      title: "Adelaide Finch Dies"
+      description: "Death in London, aged approximately 61. The end of Bennet's most profound intellectual relationship."
+      significance: "Loss of the archive's most important correspondent."
+      
+    - year: 1879
+      type: "T"
+      title: "Alaric Thorne Dies"
+      description: "Death in Manchester, aged 74. The engineer-poet's night walks end."
+      significance: "Silence from the industrial North."
+
+    - year: 1881
+      type: "B"
+      title: "Bradbury Bennet Dies"
+      description: "Death at The Larches, aged 84. The end of the Society of Night Walkers."
+      significance: "The final end of the epistolary circle."
+      
+    # Speciální událost mimo hlavní časovou osu postav
+    - year: 2024 
+      type: "H"
+      title: "The Discovery"
+      description: "A stonemason finds a concealed deed box during a library survey at The Larches. The forgotten archive sees light after 143 years."
+      significance: "The resurrection of lost voices that made this project possible."
+      entry_link: "about" # Odkaz na about.md
