@@ -1,0 +1,86 @@
+/* --- Styly pro hlavičku a filtry --- */
+.timeline-header { text-align: center; margin-bottom: 2em; }
+#timeline-filters { display: flex; flex-wrap: wrap; justify-content: center; gap: 1em; margin-bottom: 2em; padding-bottom: 1em; border-bottom: 1px solid #ddd; }
+.filter-group { display: flex; align-items: center; gap: 0.5em; }
+.filter-btn {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Crimson Text', serif;
+    transition: all 0.3s;
+    border-bottom: 3px solid transparent;
+}
+.filter-btn:hover { background-color: #e0e0e0; }
+.filter-btn.active { 
+    font-weight: bold; 
+    background-color: #fff;
+    border-bottom-color: var(--char-color, #333);
+}
+
+/* --- Hlavní kontejner a osa --- */
+.timeline-wrapper { overflow-x: auto; padding: 2em 0; }
+#timeline-container {
+    position: relative;
+    width: 4000px; /* Široký kontejner pro horizontální osu */
+    height: 400px;
+    background-image: linear-gradient(to right, #fdfaf3, #f5efdc);
+}
+#timeline-container::before { /* Hlavní časová osa */
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #bda87f;
+}
+
+/* --- Události na ose --- */
+.timeline-event {
+    position: absolute;
+    transform: translateX(-50%);
+    width: 150px;
+    text-align: center;
+    font-size: 0.8em;
+}
+.timeline-event .marker {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--char-color, #ccc);
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    margin: 0 auto 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.timeline-event:hover .marker { transform: scale(1.5); }
+.event-title { font-weight: bold; }
+.event-up { top: 30px; }
+.event-down { top: 230px; }
+
+/* --- Modální okno (popup) --- */
+.modal { position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; }
+.modal-content {
+    background-color: #fdfaf3;
+    padding: 30px;
+    border: 1px solid #bda87f;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    width: 80%;
+    max-width: 600px;
+    border-radius: 5px;
+    position: relative;
+}
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #aaa;
+}
+.close-button:hover { color: #333; }
+#modal-link { display: block; margin-top: 1em; font-weight: bold; }
