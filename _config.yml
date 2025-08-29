@@ -1,2 +1,102 @@
-theme: jekyll-theme-minimal
-title: The Bennet Diaries Project
+# The Bennet Diaries Project - Jekyll Configuration
+
+# Základní informace
+title: "The Bennet Diaries Project"
+description: "An Archive of the Journals and Correspondence of Bradbury Bennet, Esq. (1797–1881)"
+url: "https://bennetdiaries.github.io" # Nahraďte svým GitHub Pages URL, pokud je jiné
+baseurl: ""
+
+# Autor a kurátor
+author:
+  name: "Dr. Evelyn Reed"
+  title: "Curator & Editor"
+  institution: "University of Bristol"
+
+# Markdown procesor
+markdown: kramdown
+
+# Kolekce pro lepší organizaci
+# Říkáme Jekyllu, že entries/ a context/ jsou speciální složky
+collections:
+  entries:
+    output: true
+    permalink: /entries/:name/
+  context:
+    output: true
+    permalink: /context/:name/
+
+# Výchozí hodnoty pro metadata (Front Matter)
+# Toto automaticky přidá layout ke každému souboru ve složce
+defaults:
+  - scope:
+      path: "entries"
+      type: "entries"
+    values:
+      layout: "entry"
+  - scope:
+      path: "context"
+      type: "context" 
+    values:
+      layout: "context"
+  - scope:
+      path: "" # Pro všechny ostatní stránky (index, about, gallery)
+    values:
+      layout: "default"
+
+# ----------------------------------------------------
+# --- Sekce pro automatické kontextové poznámky ---
+# ----------------------------------------------------
+# Postavy
+characters:
+  bradbury_bennet:
+    name: "Bradbury Bennet"
+    title: "Gentleman Naturalist"
+    years: "1797–1881"
+    location: "Somerset"
+    link: "/context/bennet-biography.html" # Odkaz na budoucí bio
+    color: "#2E8B57" # Zelená
+
+  adelaide_finch:
+    name: "Adelaide Finch" 
+    title: "Melancholic Rationalist"
+    years: "c. 1817–1878"
+    location: "London"
+    link: "/context/finch-correspondence.html"
+    color: "#4682B4" # Modrá
+
+  alaric_thorne:
+    name: "Alaric Thorne"
+    title: "Engineer-Poet"
+    years: "1805–1879" 
+    location: "Manchester"
+    link: "/context/thorne-biography.html"
+    color: "#B8860B" # Zlatá/Okrová
+
+  dr_caldwell:
+    name: "Dr. Henry Caldwell"
+    title: "Physician"
+    location: "Bath"
+    link: "/context/caldwell-notes.html"
+    color: "#8B4513" # Hnědá
+
+  dr_alistair_finch:
+    name: "Dr. Alistair Finch"
+    title: "Mesmerist"
+    location: "London"
+    link: "/context/alistair-finch-notes.html"
+    color: "#DC143C" # Karmínová
+
+  elias_blackwood:
+    name: "Elias Blackwood"
+    title: "Calotypist"
+    location: "Bath"
+    link: "/entries/1852-06-08.html" # Odkaz na deník, kde se objevil
+    color: "#696969" # Šedá
+
+# --- Konec sekce ---
+
+# Exclude soubory (co má Jekyll ignorovat)
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
