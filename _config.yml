@@ -244,3 +244,21 @@ timeline:
       description: "A stonemason finds a concealed deed box during a library survey at The Larches. The forgotten archive sees light after 143 years."
       significance: "The resurrection of lost voices that made this project possible."
       entry_link: "about" # Odkaz na about.md
+
+# Navigace (pro dynamické menu)
+navigation:
+  - title: "Archive"
+    url: "/"
+    icon: "📚"
+  - title: "Timeline"
+    url: "/timeline.html"
+    icon: "⏰"
+  - title: "Gallery"
+    url: "/gallery.html"
+    icon: "🖼️"
+  - title: "Context"
+    url: "/context/"
+    icon: "📖"
+  - title: "About"
+    url: "/about.html"
+    icon: "ℹ️"
