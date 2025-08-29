@@ -1,6 +1,43 @@
-<nav style="text-align: center; margin: 20px 0; border-top: 1px solid #eee; border-bottom: 1px solid #eee; padding: 10px 0;">
-    <a href="{{ '/' | relative_url }}" style="margin: 0 15px;">Home</a>
-    <a href="{{ '/gallery.html' | relative_url }}" style="margin: 0 15px;">Gallery</a>
-    <a href="{{ '/context/' | relative_url }}" style="margin: 0 15px;">Context</a>
-    <a href="{{ '/about.html' | relative_url }}" style="margin: 0 15px;">About</a>
+<nav class="main-navigation">
+    <ul>
+        {% for item in site.navigation %}
+        <li>
+            <a href="{{ item.url | relative_url }}">
+                <span class="nav-icon">{{ item.icon }}</span> {{ item.title }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
 </nav>
+
+<style>
+    .main-navigation {
+        text-align: center;
+        margin: 20px 0;
+        padding: 10px 0;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+    }
+    .main-navigation ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .main-navigation li {
+        display: inline-block;
+        margin: 0 15px;
+    }
+    .main-navigation a {
+        text-decoration: none;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1.2em;
+        color: #5a8f7b;
+    }
+    .main-navigation a:hover {
+        color: #3b5d50;
+    }
+    .nav-icon {
+        display: inline-block;
+        margin-right: 5px;
+    }
+</style>
