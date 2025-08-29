@@ -1,3 +1,8 @@
+---
+title: Notes on Dr. Henry Caldwell
+---
+
+
 # Notes on Dr. Henry Caldwell
 
 Dr. Henry Caldwell of Bath (c. 1795–1878) was Bradbury Bennet's closest, and arguably only, true friend. A practical and well-respected physician, Caldwell appears throughout the diaries as a voice of compassionate reason, serving as both an intellectual sounding board and a gentle anchor to the world of human affairs that Bennet so often held at a distance.
